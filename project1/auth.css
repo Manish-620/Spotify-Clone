@@ -1,0 +1,13 @@
+
+*{box-sizing:border-box}
+body{margin:0;background:linear-gradient(135deg,#0f1724,#071029);font-family:Inter,system-ui,Segoe UI,Roboto,Arial;color:#fff;display:grid;place-items:center;height:100vh}
+.auth-card{background:linear-gradient(180deg, rgba(255,255,255,0.03), rgba(255,255,255,0.02));padding:28px;border-radius:16px;width:360px;box-shadow:0 12px 40px rgba(2,6,23,0.7);border:1px solid rgba(255,255,255,0.03)}
+h1{margin:0 0 8px 0;font-size:22px}
+.muted{color:#9fb4ff;margin-bottom:12px}
+label{display:block;margin-top:8px;font-size:13px;color:#cfe1ff}
+input{width:100%;padding:10px;border-radius:10px;border:1px solid rgba(255,255,255,0.06);background:#061126;color:#fff;margin-top:6px;outline:none}
+button{margin-top:12px;padding:10px 12px;border-radius:10px;border:0;background:#1DB954;color:#000;font-weight:700;cursor:pointer}
+.row{display:flex;justify-content:space-between;align-items:center;margin-top:8px}
+.linkish{background:transparent;color:#9fb4ff;border:0;cursor:pointer;padding:6px}
+.error{background:#40121f;padding:8px;border-radius:8px;margin-top:10px;color:#ffc6d9}
+.small{font-size:12px;color:#9fb4ff;margin-top:12px}

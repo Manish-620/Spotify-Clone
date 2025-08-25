@@ -1,0 +1,29 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spotlite — Login</title>
+  <link rel="stylesheet" href="auth.css"/>
+</head>
+<body>
+  <main class="auth-card">
+    <h1>Welcome to Spotlite</h1>
+    <p class="muted">Sign in to continue to your music.</p>
+    <form id="loginForm">
+      <label>Email</label>
+      <input id="email" type="email" required placeholder="you@example.com"/>
+      <label>Password</label>
+      <input id="password" type="password" required placeholder="Password"/>
+      <button type="submit">Sign in</button>
+      <div class="row">
+        <button id="btnRegister" type="button" class="linkish">Create account</button>
+      </div>
+      <div id="error" class="error" style="display:none"></div>
+    </form>
+    <p class="small muted">Demo accounts: <strong>test@demo.com / 1234</strong></p>
+  </main>
+  <script src="auth.js"></script>
+</body>
+</html>

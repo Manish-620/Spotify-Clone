@@ -1,0 +1,30 @@
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Spotlite — Register</title>
+  <link rel="stylesheet" href="auth.css"/>
+</head>
+<body>
+  <main class="auth-card">
+    <h1>Create account</h1>
+    <p class="muted">Register a local demo account (stored in this browser).</p>
+    <form id="regForm">
+      <label>Name</label>
+      <input id="name" type="text" required placeholder="Manish"/>
+      <label>Email</label>
+      <input id="remail" type="email" required placeholder="you@example.com"/>
+      <label>Password</label>
+      <input id="rpass" type="password" required placeholder="Password"/>
+      <button type="submit">Create account</button>
+      <div class="row">
+        <button id="btnBack" type="button" class="linkish">Back to sign in</button>
+      </div>
+      <div id="rerror" class="error" style="display:none"></div>
+    </form>
+  </main>
+  <script src="auth.js"></script>
+</body>
+</html>
